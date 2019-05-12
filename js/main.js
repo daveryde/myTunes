@@ -23,7 +23,9 @@ $(function() {
   $('.open-menu').height($(window).height());
 });
 
-// Smooth Scrolling
+// Smooth Scrolling using jQuery
+// Commented out due to easier implementation w/CSS scroll behavior
+/*
 $('.cf a').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
@@ -41,3 +43,4 @@ $('.cf a').on('click', function(event) {
     );
   }
 });
+*/
