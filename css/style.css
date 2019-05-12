@@ -247,8 +247,7 @@ nav a#openup {
     text-align: left;
     width: 100%;
     text-indent: 25px;
-    background: #333;
-    border-bottom: 1px solid #555;
+    background: var(--navbar-color);
   }
   nav a:hover {
     background: #444;
@@ -269,7 +268,7 @@ nav a#openup {
   }
   nav a#openup {
     display: block;
-    background-color: #333;
+    background-color: var(--navbar-color);
     width: 100%;
     position: relative;
   }
